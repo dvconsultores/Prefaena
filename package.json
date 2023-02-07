@@ -1,0 +1,51 @@
+{
+  "name": "Prefaena",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "npx react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@freakycoder/react-native-text-area": "^0.1.4",
+    "@react-native-async-storage/async-storage": "^1.15.7",
+    "@react-native-picker/picker": "^1.12.0",
+    "@react-navigation/native": "^5.9.3",
+    "@react-navigation/stack": "^5.14.3",
+    "axios": "^0.21.1",
+    "formik": "^2.2.6",
+    "moment": "^2.29.1",
+    "react": "17.0.1",
+    "react-native": "^0.64.2",
+    "react-native-device-info": "^8.3.3",
+    "react-native-dropdown-picker": "^4.0.2",
+    "react-native-easy-grid": "^0.2.2",
+    "react-native-elements": "^3.3.2",
+    "react-native-gesture-handler": "^1.10.3",
+    "react-native-mail": "^6.1.0",
+    "react-native-masked-text": "^1.13.0",
+    "react-native-safe-area-context": "^3.2.0",
+    "react-native-screens": "^3.0.0",
+    "react-native-sqlite-storage": "^5.0.0",
+    "react-native-super-grid": "^4.1.1",
+    "react-native-vector-icons": "^8.1.0",
+    "react-native-zebra-bluetooth-printer": "git+https://github.com/Cross-Cloud-Partners/react-native-zebra-bluetooth-printer.git",
+    "yup": "^0.32.9"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

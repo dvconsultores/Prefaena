@@ -1,0 +1,9 @@
+com/prefaena/MainActivity.java
+ com.prefaena.MainActivity
+com/prefaena/MainApplication.java
+ com.prefaena.MainApplication
+ com.prefaena.MainApplication$1
+com/prefaena/BuildConfig.java
+ com.prefaena.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

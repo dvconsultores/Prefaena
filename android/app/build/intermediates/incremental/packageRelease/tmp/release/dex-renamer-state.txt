@@ -1,0 +1,4 @@
+#Tue Oct 26 11:50:37 VET 2021
+base.0=/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/build/intermediates/dex/release/minifyReleaseWithR8/classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

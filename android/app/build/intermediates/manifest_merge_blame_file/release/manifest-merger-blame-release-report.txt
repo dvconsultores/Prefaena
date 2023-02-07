@@ -1,0 +1,110 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.prefaena"
+4    android:versionCode="1"
+5    android:versionName="1.5" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.BLUETOOTH" />
+12-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:5-68
+12-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:11:22-65
+13    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+13-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:5-74
+13-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:22-71
+14    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+14-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:5-81
+14-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:22-78
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+15-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:5-79
+15-->[:react-native-zebra-bluetooth-printer] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-zebra-bluetooth-printer/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:22-76
+16    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+16-->[com.google.android.gms:play-services-iid:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
+16-->[com.google.android.gms:play-services-iid:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/e18b3ef1604371e7e10a2586fcf5f032/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
+17    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+17-->[com.android.installreferrer:installreferrer:1.1.2] /home/andres/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:5-110
+17-->[com.android.installreferrer:installreferrer:1.1.2] /home/andres/.gradle/caches/transforms-2/files-2.1/150d95ff2179d66a1b5aeef5973627bb/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
+18
+19    <application
+19-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:6:5-24:19
+20        android:name="com.prefaena.MainApplication"
+20-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:7:7-38
+21        android:allowBackup="false"
+21-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:11:7-34
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.1.0] /home/andres/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:9:7-41
+24        android:label="@string/app_name"
+24-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:8:7-39
+25        android:roundIcon="@mipmap/ic_launcher_round"
+25-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:10:7-52
+26        android:theme="@style/AppTheme" >
+26-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:12:7-38
+27        <activity
+27-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:13:7-23:18
+28            android:name="com.prefaena.MainActivity"
+28-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:14:9-37
+29            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+29-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:16:9-86
+30            android:label="@string/app_name"
+30-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:15:9-41
+31            android:launchMode="singleTask"
+31-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:17:9-40
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:18:9-51
+33            <intent-filter>
+33-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:19:9-22:25
+34                <action android:name="android.intent.action.MAIN" />
+34-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:20:13-65
+34-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:20:21-62
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:21:13-73
+36-->/home/andres/vsCodeProjects/ReactNative/Prefaena/android/app/src/main/AndroidManifest.xml:21:23-70
+37            </intent-filter>
+38        </activity>
+39
+40        <provider
+40-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:12:9-20:20
+41            android:name="com.chirag.RNMail.RNMailFileProvider"
+41-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:13:13-64
+42            android:authorities="com.prefaena.rnmail.provider"
+42-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:14:13-67
+43            android:exported="false"
+43-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:15:13-37
+44            android:grantUriPermissions="true" >
+44-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:16:13-47
+45            <meta-data
+45-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:17:13-19:58
+46                android:name="android.support.FILE_PROVIDER_PATHS"
+46-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:18:17-67
+47                android:resource="@xml/provider_paths" />
+47-->[:react-native-mail] /home/andres/vsCodeProjects/ReactNative/Prefaena/node_modules/react-native-mail/android/build/intermediates/library_manifest/release/AndroidManifest.xml:19:17-55
+48        </provider>
+49
+50        <activity
+50-->[com.google.android.gms:play-services-base:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+51            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+51-->[com.google.android.gms:play-services-base:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+52            android:exported="false"
+52-->[com.google.android.gms:play-services-base:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+53            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+53-->[com.google.android.gms:play-services-base:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/2631375de80937c90cd3a1032ab35871/jetified-play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+54
+55        <meta-data
+55-->[com.google.android.gms:play-services-basement:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+56            android:name="com.google.android.gms.version"
+56-->[com.google.android.gms:play-services-basement:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+57            android:value="@integer/google_play_services_version" />
+57-->[com.google.android.gms:play-services-basement:17.0.0] /home/andres/.gradle/caches/transforms-2/files-2.1/dcffa74d8d015470a7eae32b9eb648c7/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+58    </application>
+59
+60</manifest>
